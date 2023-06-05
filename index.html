@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<script src="main.js" defer></script>
+	<title>Join our beach club</title>
+</head>
+<body>
+	<main>
+		<section class="left">
+			<div id="highlight"><img src="odin-lined.png" alt=""> <span>Odin</span></div>
+			<span class="credits">
+				Photo by <a href="https://unsplash.com/@vorosbenisop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Benjamin Voros</a> on <a href="https://unsplash.com/images/nature/beach?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+			</span>
+		</section>
+		<section class="right">
+			<p>Do you enjoy going to beach and having the best time of a lifetime? What if you could do it more often? Join our Beach Club today!</p>
+			<p>Sign up now to get started.</p>
+			<p>Fill the form in.</p>
+			<form action="" method="post">
+				<fieldset>
+					<legend>Let's do this!</legend>
+					<div class="inputs">
+						<div class="l">
+							<label for="first-name">First Name</label>
+							<input type="text" id="first-name" placeholder="John">
+							<label for="last-name">Last Name</label>
+							<input type="text" id="last-name" placeholder="Doe">
+							<label for="phone-number">Phone Number</label>
+							<input type="tel" max="16" pattern="[[8][2-7][0-9]{7}" value="" id="phone-number" placeholder="82000000">
+						</div>
+						<div class="r">
+							<label for="email">Email</label>
+							<input type="email" id="email" placeholder="johnd99@email.com">
+							<label for="password">Password</label>
+							<input type="password" id="password" placeholder="********">
+							<label for="confirm-password">Confirm Password</label>
+							<input type="password" id="confirm-password" placeholder="********">
+						</div>
+					</div>
+				</fieldset>
+				<input type="submit" value="Create Account">
+			</form>
+			<p>Already have an account? <a href="#">Log in</a></p>
+		</section>
+	</main>
+</body>
+</html>
+
+
